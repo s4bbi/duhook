@@ -31,7 +31,7 @@ const Header = () => {
         </div>
 
         {showSidebar && (
-          <div className="fixed inset-0 z-40 bg-black bg-opacity-50 md:hidden">
+          <div className={`fixed inset-0 z-40 bg-black bg-opacity-50 md:hidden transform transition-transform ${showSidebar ? '-translate-x-full' : 'translate-x-0'}`}>
             <div className="absolute top-0 right-0 h-screen w-64 bg-EventBG shadow-lg">
               <div className="flex justify-end p-4">
                 <button onClick={toggleSidebar} className="text-white hover:text-gray-800 focus:outline-none">
