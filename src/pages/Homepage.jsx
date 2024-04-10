@@ -1,6 +1,9 @@
+import clock from "../assets/images/clock.png";
 const Homepage = () => {
   return (
-    <div className="w-full h-screen bg-black">Homepage</div>
+    <div className="w-full h-screen bg-black">Homepage
+    
+    </div>
   )
 }
 
