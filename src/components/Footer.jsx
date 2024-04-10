@@ -1,4 +1,4 @@
-import Footer_img from "../assets/images/footer.png"
+import Footer_img from "../assets/Images/footer.png"
 const Footer = () => {
   return (
     <div>
