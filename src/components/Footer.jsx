@@ -4,7 +4,6 @@ const Footer = () => {
     <div>
       <img src={Footer_img} className="w-full bg-black"></img>
       <h1 className="h-16 text-white bg-black flex items-center justify-center">© Copyright All Rights Reserved By DuHook 2020</h1>
-
     </div>
   )
 }

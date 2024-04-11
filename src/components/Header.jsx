@@ -20,8 +20,8 @@ const Header = () => {
             <img src="https://play-lh.googleusercontent.com/L3JSdLbbJF2WSYm1DGDeiQSId1ftJKRrVX-Ne2cSjdzAzTLlHcuNW1LWKiWM8ttZbPc" className="w-12 cursor-pointer"></img>
           </div>
           <div className="flex gap-5 items-center">
-            <FaSistrix className="text-sky-500 font-medium cursor-pointer h-10"/>
-            <FaAlignJustify className="text-sky-500 cursor-pointer h-10"/>
+            <FaSistrix className="text-sky-600 font-medium cursor-pointer h-10"/>
+            <FaAlignJustify className="text-sky-600 cursor-pointer h-10"/>
           </div>
         </div>
     </div>
