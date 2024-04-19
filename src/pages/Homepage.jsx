@@ -85,7 +85,7 @@ const Homepage = () => {
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Recent</button>
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Favourite</button>
           </div>
-          <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 sm:w-[420px] sm:-ml-2 mx-auto">
+          <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 sm:w-[420px] sm:-ml-2 mx-auto mt-3">
         <h1 className="p-2 text-white font-semibold text-xl">Create New Post</h1>
         <input placeholder="Create a New Post" className="bg-gray-700 w-80 rounded-3xl text-center h-10 my-4 p-2"></input>
         <div className="flex gap-4 m-3 ">
