@@ -28,8 +28,8 @@ const Homepage = () => {
   return (
     <div className="w-full h-[100%] bg-black py-4 flex flex-wrap gap-4 items-center text-white ">
       <div className="sm:grid sm:grid-cols-3">
-      <div className="flex flex-wrap flex-col">
-      <div className="bg-slate-900 w-[360px] h-[340px] rounded-md p-4 m-2 sm:w-[300px] sm:h-[430px]">
+      <div className="flex flex-wrap flex-col ">
+      <div className="bg-slate-900 w-[360px] h-[340px] rounded-md p-4  mx-auto sm:w-[300px] sm:h-[430px] sm:mx-2">
         <div className="flex justify-between"> 
         <h1 className="py-1 text-white font-semibold text-lg">Recent Blogs</h1>
         <h1 className="text-sky-600 py-2 font-semibold cursor-pointer">See All</h1>
@@ -57,7 +57,7 @@ const Homepage = () => {
         </div>
         </div>
         </div>
-        <div className="bg-slate-900 w-[360px] h-64 rounded-md p-4 sm:w-[300px] sm:h-72 sm:mx-2">
+        <div className="bg-slate-900 w-[360px] h-64 rounded-md p-4 sm:w-[300px] sm:h-72 sm:mx-2 mx-auto my-4">
         <div className="flex gap-2">
           <h1 className=" text-white font-semibold text-sm">Chat Rooms</h1>
           <h1 className="text-gray-500 text-xs pt-1">Video chat with friends</h1>
@@ -80,12 +80,12 @@ const Homepage = () => {
 
       </div>
         <div className="flex flex-wrap flex-col">
-        <div className="flex gap-2 m-2 sm:w-[400px] sm:h-[50px] sm:ml-4">
+        <div className="flex gap-2 m-2 sm:w-[400px] sm:h-[50px] sm:ml-4 mx-auto">
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Home</button>
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Recent</button>
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Favourite</button>
           </div>
-          <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 sm:w-[420px] sm:-ml-2">
+          <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 sm:w-[420px] sm:-ml-2 mx-auto">
         <h1 className="p-2 text-white font-semibold text-xl">Create New Post</h1>
         <input placeholder="Create a New Post" className="bg-gray-700 w-80 rounded-3xl text-center h-10 my-4 p-2"></input>
         <div className="flex gap-4 m-3 ">
@@ -105,8 +105,8 @@ const Homepage = () => {
           </div>
 
         </div>
-        <div className="sm:w-[480px] sm:h-[150px] sm:-mx-6 ">
-      <div className="flex justify-between mx-4"> 
+        <div className="sm:w-[480px] sm:h-[150px] sm:-mx-6 sm:-mb-2 mx-6">
+      <div className="flex justify-between mx-6"> 
         <h1 className="py-1 text-white font-semibold text-lg sm:text-2xl sm:py-6">Recent Stories</h1>
         <h1 className="text-sky-600 py-2 font-semibold cursor-pointer border-b-sky-600 sm:mx-9 sm:text-xl sm:py-6">See All</h1>
         </div>
@@ -127,11 +127,9 @@ const Homepage = () => {
           </div>
 
       </div>
-      <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 sm:mt-36 sm:w-[425px] sm:-ml-3">
-      <div className="flex justify-between"> 
-        <h1 className="py-1 text-white font-semibold text-lg sm:text-2xl ">Recent Blogs</h1>
-        <h1 className="text-sky-600 py-2 font-semibold cursor-pointer sm:text-xl">See All</h1>
-        </div>
+      <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 sm:mt-36 sm:w-[425px] sm:-ml-3 mx-auto mb-4">
+      
+        <h1 className="py-1 text-white font-semibold text-lg sm:text-2xl ">Suggested Group</h1>
         </div>
 
 
@@ -141,7 +139,7 @@ const Homepage = () => {
 
         </div>
         <div className="flex flex-wrap">
-        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4 sm:w-[233px] sm:ml-24 sm:mb-2">
+        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4 sm:w-[233px] sm:ml-24 sm:mb-0 mx-auto">
       <div className="flex gap-2">
         <div className="">
           <h1 className="text-sky-600 font-semibold text-lg">Suggested</h1>
@@ -151,11 +149,12 @@ const Homepage = () => {
         <img src={Suggested} className="w-20 border-sky-600 border m-auto mt-7 rounded-xl"></img>
         <h1 className="text-lg font-semibold text-center">Amy Watson</h1>
         <h1 className="text-sky-600 text-center">Department of Sociology</h1>
-        <button className="btn w-20 h-7 rounded-3xl bg-sky-600 text-white text-lg  ml-32 mt-3 cursor-pointer hover:bg-sky-700 font-semibold sm:ml-24 sm:w-24">Follow</button>
+        <button className="btn w-20 h-7 rounded-3xl bg-sky-600 text-white text-lg  ml-32 mt-3 cursor-pointer hover:bg-sky-700 font-semibold sm:ml-14 sm:w-24">Follow</button>
         </div>
-        <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 px-2 sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-2">
-        <div className="flex justify-between">
-        <div className="flex gap-4">
+      
+        <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 px-2 sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-4 mx-auto my-4">
+        <div className="flex justify-between ">
+        <div className="flex gap-4 ">
         <img src={Profile01} className="w-14 rounded-full sm:rounded-md sm:w-14 sm:border"></img>
         <div>
         <h1 className=" text-sky-600 font-semibold text-lg ">Andrew <span className=" font-normal text-gray-400">Post Audio</span></h1>
@@ -176,10 +175,21 @@ const Homepage = () => {
           
         
         </div>
-        <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4  sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-2">
-      <div className="flex justify-between"> 
-        <h1 className="py-1 text-white font-semibold text-lg">Recent Blogs</h1>
-        <h1 className="text-sky-600 py-2 font-semibold cursor-pointer">See All</h1>
+        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4  sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-2 mx-auto">
+      <div className=""> 
+        <h1 className="py-1 text-white font-bold text-xl">Suggested Group</h1>
+        <div className="py-3">
+        <img src={blog03} className="w-80 h-20"></img>
+        <div className="bg-black w-[325px] h-28 p-4 rounded-md sm:w-52 sm:p-1">
+          <h1 className="sm:pt-2 sm:px-3 text-lg">Social Research</h1>
+          <p className="text-gray-500 sm:px-3">@biolabest</p>
+          <button className="btn w-20 h-7 rounded-3xl border-sky-600 border text-white text-lg  cursor-pointer hover:bg-sky-700 font-bold  sm:w-40 sm:ml-6 sm:mt-2">Follow</button>
+
+
+        </div>
+
+
+        </div>
         </div>
 
           
