@@ -6,6 +6,7 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import Homepage from './pages/Homepage.jsx'
 import BottomNav from './components/BottomNav.jsx'
+import CompanyHome from './pages/CompanyHome.jsx'
 
 const AppComponent = () => {
   return (
@@ -26,6 +27,10 @@ const AppRouter = createBrowserRouter([
       {
         path: '/',
         element: <Homepage/>,
+      },
+      {
+        path: '/companyhome',
+        element: <CompanyHome/>,
       }
     ]
   }
