@@ -21,9 +21,7 @@ const Header = () => {
         <div className="flex bg-black text-white items-center px-5 justify-between  sm:h-20 border-b border-gray-600 h-16">
   
           <div className="flex items-center">
-            <img src={logo
-            
-            } alt="Logo" className="w-14 sm:w-20"/>
+            <img src={logo} alt="Logo" className="w-14 sm:w-20"/>
           </div>
           <div className="">
             <input type="text" className="rounded-full sm:w-72 sm:h-9 bg-slate-900 text-center text-lg text-gray-500 hidden sm:block" placeholder="Search"></input>
