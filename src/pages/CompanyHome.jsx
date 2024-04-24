@@ -69,8 +69,8 @@ const CompanyHome = () => {
         <img src={BgImg} className='h-80 object-cover sm:h-[500px]' alt=""></img>
       </div>
       <div className='flex flex-col sm:flex-row sm:justify-center'>
-      <div className='pt-14 px-4 '>
-        <div className='bg-white h-[150px] w-[395px] rounded-lg p-5 sm:w-[290px] sm:h-[200px]'>
+      <div className='pt-14 px-4 '> 
+        <div className='bg-white h-[150px] w-[395px] rounded-lg p-5 sm:w-[290px] sm:h-[200px] md:w-[405px] md:h-[150px]'>
           <div className='flex'>
             <div className='h-12 bg-sky-600 w-24 m-2 p-2 rounded-md'>
             <IoMdCheckboxOutline className='h-8 w-6'/>
@@ -86,7 +86,7 @@ const CompanyHome = () => {
         </div>
 
         <div className='pt-14 px-4'>
-        <div className='bg-white h-[150px] w-[395px] rounded-lg p-5 sm:w-[290px] sm:h-[200px]'>
+        <div className='bg-white h-[150px] w-[395px] rounded-lg p-5 sm:w-[290px] sm:h-[200px] md:w-[405px] md:h-[150px]'>
         <div className='flex'>
             <div className='h-12 bg-sky-600 w-24 m-2 p-2 rounded-md'>
             <FaRegCirclePlay className='h-8 w-6'/>
@@ -103,7 +103,7 @@ const CompanyHome = () => {
         </div>
 
         <div className='pt-14 px-4'>
-        <div className='bg-white h-[150px] w-[395px] rounded-lg p-5 sm:w-[290px] sm:h-[200px]'>
+        <div className='bg-white h-[150px] w-[395px] rounded-lg p-5 sm:w-[290px] sm:h-[200px] md:w-[405px] md:h-[150px]'>
         <div className='flex'>
             <div className='h-12 bg-sky-600 w-24 m-2 p-2 rounded-md'>
             <FaRegClock className='h-8 w-6'/>
@@ -157,27 +157,25 @@ const CompanyHome = () => {
           <div className='sm:flex sm:justify-'>
           <div className='pt-4 px-4'>
         <HiLightBulb className='w-14 h-14 text-sky-600 sm:w-24 sm:h-24'/>
-        <h1 className='text-2xl sm:text-6xl sm:py-5'>Measure Your Scientific impact</h1>
+        <h1 className='text-2xl sm:text-5xl sm:py-5'>Measure Your Scientific impact</h1>
         <h1 className='text-gray-400 sm:text-2xl'>Get an depth stats on whole been reading your work and keep track of your citations</h1>
         </div>
         <div>
 
         </div>
         <div className='pt-6 px-4 border-4 border-dotted pb-6 my-5 mx-5 border-sky-600 rounded-md'>
-          <img src={avatar01} className='rounded-md sm:w-[690px]'></img>
+          <img src={avatar01} className='rounded-md sm:w-[450px] '></img>
           </div>
-
-
           </div>
           <div className='sm:flex sm:justify-between'>
           <div className='pt-6 px-4 border-4 border-dotted pb-6 mt-5 mx-5 border-sky-600 rounded-md '>
-          <img src={avatar02} className='rounded-md sm:w-[800px]'></img>
+          <img src={avatar02} className='rounded-md sm:w-[600px]'></img>
         </div>
         <div>
         <div className='mt-4'>
           <BiSolidNetworkChart className='w-16 h-10 text-sky-600 sm:w-24 sm:h-24'/>
         </div>
-        <h1 className='text-5xl m-4'>Connect with Your scientific Community</h1>
+        <h1 className='sm:text-5xl m-4 '>Connect with Your scientific Community</h1>
        
         <div className='flex flex-row flex-wrap gap-2 m-4 sm:py-4'>
           <button className='btn rounded-3xl border-sky-600 border-2 w-fit h-10 text-md px-4'>Engineering</button>
@@ -203,20 +201,20 @@ const CompanyHome = () => {
             <h1 className="underline text-lg font-semibold sm:font-medium sm:text-2xl">Join our community of scientist</h1>
             <button className="btn rounded-full w-32 sm:w-40 sm:mt-4 sm:h-12 bg-sky-600 border-2 border-blue-500 text-white h-8 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg pb-2 mt-2 font-medium">Join Free Now</button>
         </div>
-        <div className='sm:h-[500px] h-80 sm:my-10'>
+        <div className='sm:h-[500px] h-80 sm:my-10 '>
           <img src={parallel} className='sm:h-[500px] h-80 object-cover' alt="" />
         </div>
         <h1 className='text-center text-xl my-4 sm:text-5xl'>Recent Events</h1>
         <h1 className='text-slate-400 text-center sm:text-lg'>Our Recent News about the events</h1>
-        <div className='pt-6 px-4 border-2 pb-6 mt-5 mx-5 border-white rounded-md'>
-          <img src={blog} className='rounded-md sm:w-[930px]'></img>
-          <div className='flex gap-2 p-2 text-slate-400'>
+        <div className='pt-6 px-4 border-2 pb-6 mt-5 mx-5 border-white rounded-md '>
+          <img src={blog} className='rounded-md sm:w-[930px] mx-auto'></img>
+          <div className='flex gap-2 p-2 text-slate-400 md:justify-center'>
             <img src={post} className='rounded-full h-10 w-10 border '></img>
             <h1 className='text-lg sm:text-xl'>Saden joe </h1>
             <GoHeartFill className='w-10 h-6 sm:w-10 sm:h-8'/>
             <h1 className='text-lg sm:text-xl'>1.3k</h1>
           </div>
-          <div className='flex gap-2 p-2 text-slate-400'>
+          <div className='flex gap-2 p-2 text-slate-400 md:justify-center'>
             <div className='w-12 sm:w-16 sm:h-14 sm:pt-5 bg-sky-600 text-center text-white rounded-md border-b-2 border-dotted'>06 Aug</div>
             <h1 className='text-sky-600 mt-2'>Oddo is coming to Dubai in 2020</h1>
           </div>

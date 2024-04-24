@@ -27,14 +27,14 @@ import Suggested from "../assets/Images/speak-1.jpg";
 const Homepage = () => {
   return (
     <div className="w-full h-[100%] bg-black py-4 flex flex-wrap gap-4 items-center text-white ">
-      <div className="sm:grid sm:grid-cols-3">
+      <div className="sm:grid sm:grid-cols-3 md:mx-60">
       <div className="flex flex-wrap flex-col ">
-      <div className="bg-slate-900 w-[360px] h-[340px] rounded-md p-4  mx-auto sm:w-[300px] sm:h-[430px] sm:mx-2">
+      <div className="bg-slate-900 w-[360px] h-[340px] rounded-md p-4  mx-auto sm:w-[300px] sm:h-[430px] sm:mx-2 md:w-80 md:h-96 md:py-9">
         <div className="flex justify-between"> 
         <h1 className="py-1 text-white font-semibold text-lg">Recent Blogs</h1>
         <h1 className="text-sky-600 py-2 font-semibold cursor-pointer">See All</h1>
         </div>
-        <div className="flex gap-2 pb-3">
+        <div className="flex gap-2 pb-3 ">
         <img src={blog01} className="rounded-md"/>
         <div>
           <h1 className="text-white text-lg">Moira's fade reach much farther...</h1>
@@ -57,7 +57,7 @@ const Homepage = () => {
         </div>
         </div>
         </div>
-        <div className="bg-slate-900 w-[360px] h-64 rounded-md p-4 sm:w-[300px] sm:h-72 sm:mx-2 mx-auto my-4">
+        <div className="bg-slate-900 w-[360px] h-64 rounded-md p-4 sm:w-[300px] sm:h-72 sm:mx-2 mx-auto my-4 md:w-80 md:h-80 md:py-9">
         <div className="flex gap-2">
           <h1 className=" text-white font-semibold text-sm">Chat Rooms</h1>
           <h1 className="text-gray-500 text-xs pt-1">Video chat with friends</h1>
@@ -79,7 +79,7 @@ const Homepage = () => {
 
 
       </div>
-        <div className="flex flex-wrap flex-col">
+        <div className="flex flex-wrap flex-col md:pl-2">
         <div className="flex gap-2 m-2 sm:w-[400px] sm:h-[50px] sm:ml-4 mx-auto">
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Home</button>
           <button className="btn rounded-sm w-24 sm:w-28 bg-slate-950 text-sky-600 h-9 cursor-pointer hover:rounded-md hover:bg-sky-600 hover:text-white text-lg">Recent</button>
@@ -139,8 +139,8 @@ const Homepage = () => {
 
         </div>
         <div className="flex flex-wrap">
-        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4 sm:w-[233px] sm:ml-24 sm:mb-0 mx-auto">
-      <div className="flex gap-2">
+        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4 sm:w-[233px] sm:ml-24 sm:mb-0 mx-auto md:w-80 md:h-80 md:py-9">
+      <div className="flex gap-2 ">
         <div className="">
           <h1 className="text-sky-600 font-semibold text-lg">Suggested</h1>
           <h1 className="text-sm cursor-pointer text-gray-500">Follow Similar People</h1>
@@ -152,7 +152,7 @@ const Homepage = () => {
         <button className="btn w-20 h-7 rounded-3xl bg-sky-600 text-white text-lg  ml-32 mt-3 cursor-pointer hover:bg-sky-700 font-semibold sm:ml-14 sm:w-24">Follow</button>
         </div>
       
-        <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 px-2 sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-4 mx-auto my-4">
+        <div className="bg-slate-900 w-[360px] h-60 rounded-md p-4 px-2 sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-4 mx-auto my-4 md:w-80 md:h-80 md:py-9">
         <div className="flex justify-between ">
         <div className="flex gap-4 ">
         <img src={Profile01} className="w-14 rounded-full sm:rounded-md sm:w-14 sm:border"></img>
@@ -175,7 +175,7 @@ const Homepage = () => {
           
         
         </div>
-        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4  sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-2 mx-auto">
+        <div className="bg-slate-900 w-[360px] h-72 rounded-md p-4  sm:w-[236px] sm:h-72 sm:ml-24 sm:mb-2 mx-auto md:w-[550px] md:h-72 md:py-5">
       <div className=""> 
         <h1 className="py-1 text-white font-bold text-xl">Suggested Group</h1>
         <div className="py-3">
